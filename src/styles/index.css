@@ -16,9 +16,10 @@
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    
 }
 
-.ligth {
+.light {
     border-radius: 50%;
     background-color: rgb(254, 254, 254);
     width: 50px;
@@ -27,6 +28,7 @@
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    opacity: 0.5;
 }
 
 .red {
@@ -43,4 +45,9 @@
     box-shadow: -2px 5px 28px 20px rgba(238,241,170,1);
 -webkit-box-shadow: -2px 5px 28px 20px rgba(238,241,170,1);
 -moz-box-shadow: -2px 5px 28px 20px rgba(238,241,170,1);
+opacity: 1;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
 }
